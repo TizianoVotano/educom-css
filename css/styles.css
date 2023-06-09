@@ -72,3 +72,25 @@ a {
     font-size: 32px;
     color: #CCC;
 }
+
+/* CSS Exercise 07 - Multiple Classes */
+
+.site-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.site-color {
+    background-color: indigo;
+    color: #FFF;
+}
+
+.site-square {
+    width: 200px;
+    height: 200px;
+}
+
+.site-hover:hover {
+    background-color: blue;
+    color: rgba(255, 255, 0, 0.649);
+}
