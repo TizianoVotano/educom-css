@@ -116,3 +116,39 @@ a:hover {
 a:active {
     color: blue;
 }
+
+/* CSS Exercise 07 - Multiple Classes */
+
+   /* At the top of the file */
+   :root {
+
+    /* FONTS */
+    --regular: "Arial";
+
+    /* COLORS */
+    --dark-brown: #402214;
+    --lighter-brown:  #774231;
+    --lightest-brown: #aa4b1b;
+
+    --darker-red: #b31714;
+    --lighter-red: #dc3439;
+
+    --white: #FFF;
+    --black: #000;
+
+    /* NUMERICAL VALUES */
+    --distance-value: 8px;
+    --calculated-distance: var(--distance-value);
+}
+
+/* Usage */   
+
+h1 {
+    font-family: var(--regular);
+    color: var(--darker-red);
+    margin: var(--distance-value);
+}
+
+h2 {
+    margin: var(--calculated-distance);
+}
