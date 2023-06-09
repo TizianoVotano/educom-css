@@ -6,10 +6,12 @@
  *
  */
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
+
 .red-square {
     width: 80px;
     height: 80px;
@@ -17,7 +19,7 @@ html, body {
     padding: 20px;
     margin: 10px;
     font-size: 14px;
-    background-color: rgba(255,0,0,0.4);
+    background-color: rgba(255, 0, 0, 0.4);
     display: inline-block;
 }
 
@@ -62,7 +64,7 @@ html, body {
 a {
     font-size: 22px;
     color: #F0F;
-} 
+}
 
 .cascading-parent h2 {
     color: #FD0;
@@ -119,15 +121,15 @@ a:active {
 
 /* CSS Exercise 07 - Multiple Classes */
 
-   /* At the top of the file */
-   :root {
+/* At the top of the file */
+:root {
 
     /* FONTS */
     --regular: "Arial";
 
     /* COLORS */
     --dark-brown: #402214;
-    --lighter-brown:  #774231;
+    --lighter-brown: #774231;
     --lightest-brown: #aa4b1b;
 
     --darker-red: #b31714;
@@ -141,7 +143,7 @@ a:active {
     --calculated-distance: var(--distance-value);
 }
 
-/* Usage */   
+/* Usage */
 
 h1 {
     font-family: var(--regular);
@@ -151,4 +153,32 @@ h1 {
 
 h2 {
     margin: var(--calculated-distance);
+}
+
+/* Styling a Button */
+
+.button-container {
+    margin: 25px;
+}
+.button-container a {
+    width: 200px;
+    padding: 10px;
+    color: #FFF;
+    background-color: #F00;
+
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 10px 10px 10px;
+
+    transition: all 0.5s ease;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.button-container a:hover {
+    background-color: #AF1F16;
+}
+
+.newbutton {
+    background: rgb(90,86,170);
+    background: linear-gradient(90deg, rgba(90,86,170,1) 0%, rgba(61,156,58,1) 35%, rgba(0,212,255,1) 100%);
 }
