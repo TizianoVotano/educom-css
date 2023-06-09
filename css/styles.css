@@ -56,3 +56,19 @@ html, body {
     padding: 5px;
     border: inherit;
 }
+
+/* CSS Exercise 06 - Cascading */
+
+a {
+    font-size: 22px;
+    color: #F0F;
+} 
+
+.cascading-parent h2 {
+    color: #FD0;
+}
+
+.cascading-parent a {
+    font-size: 32px;
+    color: #CCC;
+}
