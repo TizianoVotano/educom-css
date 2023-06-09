@@ -94,3 +94,25 @@ a {
     background-color: blue;
     color: rgba(255, 255, 0, 0.649);
 }
+
+/* CSS Exercise 07 - Multiple Classes */
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
